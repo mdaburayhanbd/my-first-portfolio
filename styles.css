@@ -63,7 +63,12 @@ nav .menu a{
     cursor: pointer;
    text-decoration: none;
    font-size: 20px;
-   font-weight: 500;
+   font-weight: 500;  
+}
+nav .menu a:hover{
+    color:#E51681;
+    transition: 0.6s;
+
 }
 .hero{
     padding: 50px 100px;
@@ -102,20 +107,25 @@ h2{
     font-weight: 600px;
 }
 .services{
-     padding: 50px 100px;
-     display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .services div{
-    background: #051937;
+    width: calc(33.333% - 25px);
+    background-color: #051937;
     border: 1px solid #E51681;
-    width: 33.33%;
+    padding: 25px;
     border-radius: 25px;
-    margin: 10px;
-    padding: 20px;   
+  
 }
 .services div:hover{
-    background-color: #E51681;   
+    background-color: #E51681;
+    
 }
 .services div img{
     margin-bottom: 10px;
@@ -134,7 +144,7 @@ h2{
 }
 
  .services div .button {
-    font-size: 20px;
+     font-size: 20px;
     font-weight: 500;
     padding: 10px 25px;
     border-width:1px;
