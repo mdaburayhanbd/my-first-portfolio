@@ -45,3 +45,34 @@ nav .menu a{
    font-size: 20px;
    font-weight: 500;
 }
+.hero{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero div{
+    align-self: center;
+    width: 50%;
+}
+.hero div h2{
+    font-size: 55px;
+    font-weight: 700;
+    color: fff;
+    line-height: 1.5em;
+}
+.hero div p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+}
+.hero div button{
+    margin-top: 40px;
+}
+.hero div img{
+    width: 100%;
+    max-width: 1600px;
+
+}
